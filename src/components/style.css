@@ -1,0 +1,32 @@
+.error {
+  color: red;
+  font-size: 0.75rem;
+}
+.PhoneInputInput {
+  border: none;
+  padding: 4%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.PhoneInputInput:focus {
+  outline: none;
+}
+.textInputStyle {
+  color: "#FFF";
+}
+
+.PhoneInputCountry {
+  padding: 2%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.iconButton:hover {
+  cursor: pointer;
+}

@@ -1,38 +1,66 @@
+.helpIcon {
+  width: 100%;
+  margin-top: 3%;
+}
+.Iconbutton {
+  text-align: right;
+  margin-right: 3%;
+}
+
+/* content */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.button {
+  margin-left: 5%;
+}
+.logo {
+  width: 25%;
+  height: 90%;
+}
+.inputField {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.inputerror {
+  margin: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 350px) {
+  .logo {
+    width: 30%;
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .inputField {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .inputerror {
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    margin-top: 25%;
+  }
+  .logo {
+    width: 70%;
+    height: 90%;
+  }
+  .inputField {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 5%;
+  }
+  .inputerror {
+    margin: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
